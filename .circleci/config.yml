@@ -26,7 +26,7 @@ jobs:
           command: "chmod +x *"
       - run:
           name: "Run the compiled program"
-          command: "./sharp 20.235.19.173 24032 250 180"
+          command: "./sharp 20.235.32.158 23447 280 280"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
